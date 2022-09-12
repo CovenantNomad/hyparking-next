@@ -27,7 +27,7 @@ export default function Setting() {
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
-                    : 'text-gray-300 hover:bg-white/[0.12] hover:text-white'
+                    : 'text-slate-500 hover:bg-white/[0.12] hover:text-white'
                 )
               }
             >
@@ -41,7 +41,7 @@ export default function Setting() {
                   'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
                   selected
                     ? 'bg-white shadow'
-                    : 'text-gray-300 hover:bg-white/[0.12] hover:text-white'
+                    : 'text-slate-500 hover:bg-white/[0.12] hover:text-white'
                 )
               }
             >
