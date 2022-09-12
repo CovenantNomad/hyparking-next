@@ -28,8 +28,8 @@ export default function Onboarding() {
           token: user.accessToken
         })
         localStorage.setItem(HYPARKING_AUTH, JSON.stringify(user.accessToken))
+        router.push('/home')
       })
-      router.push('/home')
     })
     .catch((error) => {
       console.log(error)
