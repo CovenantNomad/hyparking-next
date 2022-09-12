@@ -1,0 +1,1 @@
+export const HYPARKING_AUTH = "hyparking-auth"
